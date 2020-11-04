@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+body,html{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.bo{
+    position: relative;
+    width: 200px;
+    height: 400px;
+    background-image: url(1.jpg);
+    background-size: cover;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.bo .gra{
+    width: 400px;
+    height: 40px;
+    background-image: -webkit-linear-gradient(top, #6D6160 0%, white 50% , #6d6160 100%);
+    position: absolute;
+    top: -34px;
+    left: -210px;
+    transform: rotate(-60deg);
+    transition: 0.2s;
+}
+.bo:hover .gra{
+    top: 423px;
+    left: 62px;
+    opacity: 0;
+}

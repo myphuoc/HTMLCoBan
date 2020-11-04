@@ -1,0 +1,50 @@
+body{
+    margin: auto;
+    width: 50%;
+}
+div.so1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+div.so1 div{
+    width: 30%;
+}
+.img11{
+    width: 68%;
+}
+.img12{
+    height: auto;
+    width: 100%;
+}
+div.so2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+div.so2 div {
+    width: 31%;
+    margin: right;
+}
+div.so2 div img{
+    width: 100%;
+    height: 200px;
+}
+div.so3{
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+div.so3div{
+    display: flex;
+}
+div.so3 div img{
+    width: 30%;
+    margin-bottom: 3%;
+}
+div.so3 div div{
+    width: 70%;
+    padding-left: 2%;
+}
+p.fontday{
+    font-size: px;
+}

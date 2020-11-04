@@ -1,0 +1,24 @@
+div.tren{
+width: 80%;
+margin: auto;
+text-align: center;
+}
+div.tren .duoi{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+div.tren .duoi .motcot{
+    width: 30%;
+}
+div.tren .duoi .motcot img{
+    width: 100%;
+    height: auto;
+}
+div.tren .duoi .motcot a{
+ text-decoration: none;
+ color: #161616;
+}
+div.tren .duoi .motcot a:hover{
+    color: #06c;
+   }

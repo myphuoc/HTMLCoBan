@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin:auto
+}
+:root{
+
+}
+.banner{
+    height: 600px;
+    background: url(img/bg-panner.jpg) top center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.banner:before{
+    content: '';
+    background-image: -webkit-linear-gradient(left, #13131433 0%,#ffffff00 50%, #00000094 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.banner .container_top{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    
+}
+.banner .container_top ._1container{
+    width: 33.33%;
+}
+.banner .container_top ._1container.left{
+    margin-left: 0px;
+}
+.banner .container_top ._1container.left a{
+    color:white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    display: inline-block;
+}
+.banner .container_topr ._1container.left:hover a{
+    color: #071ddf;
+}
+.banner .container_top ._1container.between{
+    text-align: center;
+    padding-top: 10px;
+}
+.banner .container_top ._1container.between img{
+    height: 30px;
+}
+.banner .container_top ._1container.right{
+    text-align: right;
+    margin-right: 30px;
+}
+.banner .container_top ._1container.right a i.icon{
+    color:  #e7d2d294;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+    display: inline-block;
+}
+.banner .container_top ._1container.right a:hover i.icon{
+    color:white
+}
+.banner .container_bottom{
+    position: absolute;
+    text-align: left;
+    margin-top: 20%;
+    width: 100%;
+}
+.banner .container_bottom .text_container {
+    width: 40%;
+    font-family: segoe UI light;
+    color: white;
+    margin-left: 20%;
+}
+
+.banner .container_bottom .text_container .chunho {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+.banner .container_bottom .text_container .chuto{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.container2{ 
+    width: 65%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: segoe UI;
+    font-size: 17px;
+}
+.container2 .left{
+    width: 32%;
+}
+.textsmall{
+    color: grey;
+    padding-bottom: 20px;  
+}
+.container2 .left .textbig{
+    font-size: 20px;
+    font-weight: bold;
+}
+.container2 .right{
+    width: 64%;
+}
+.container2 .right a.textsmall.textlink{
+    font-size:15px;
+}
+.container2 .right a.textsmall.textlink .icon{
+    width: 30px;
+    padding-left: 0px;
+    transition: 0.4s;
+}
+.container2 .right a.textsmall.textlink:hover span{
+    color: black;
+}
+.container2 .right a.textsmall.textlink:hover .icon{
+    color: black;
+    padding-left: 10px;
+}
+
+.main_container{
+    background-color: black;
+    width: 100%;
+    height: 1200px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.main_container .menu_top{
+    font-size: 13px;
+    font-family: arial;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.main_container .menu_top ul{
+}
+.main_container .menu_top ul li{
+    justify-content: non;
+}
+.main_container .menu_top ul li a{
+    color:#e7d2d294;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.4;
+} 
+.main_container .menu_top ul li a.all{
+    color:white
+} 
+.main_container .menu_top ul li a:hover{
+    color:white
+}
+
+.main_container .category{
+    display: flex;
+    width: 60%;
+    height: 1000px;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+    margin:auto;
+}
+.main_container .category .khoianh{
+    width: 48%;
+    height: 30%;
+    position: relative;
+    font-family: segoe Ui light;
+    padding: 0px;
+}
+.main_container .category .khoianh .img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.main_container .category .khoianh .khungmo{
+    width: 100%;
+    height: 100%;
+    background: #88858594;
+    position: absolute;
+    opacity: 0;
+    transition: 0.4s;
+
+}
+.main_container .category .khoianh:hover .khungmo{ opacity: 1;}
+.main_container .category .khoianh .text{
+    width: 45%;
+    right: 20px;
+    background-color: violet;
+    position: absolute;
+}
+.main_container .category .khoianh .chunho{
+    position: absolute;
+    top: 50px;
+    text-align: right;
+    width: 100%;
+    opacity: 0;
+}
+.main_container .category .khoianh .chunho a{
+    text-decoration: none;
+    color: white;
+}
+.main_container .category .khoianh:hover .chunho{
+    opacity: 1;
+}
+.main_container .category .khoianh .chunho a::before{
+    content:' ';
+    width: 0px;
+    height: 100%;
+    text-align: right;
+    background-color:  white;
+    position: absolute;
+    right: 0px;
+    transition: 0.5s;
+}
+.main_container .category .khoianh:hover .chunho a::before{
+    width: 100%;
+    opacity: 0;
+}
+.main_container .category .khoianh .chuto{
+    position: absolute;
+    top: 80px;
+    text-align: right;
+    width: 100%;
+    opacity: 0;
+}
+.main_container .category .khoianh .chuto a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main_container .category .khoianh:hover .chuto{
+    opacity: 1;
+}
+.main_container .category .khoianh .chuto a::before{
+    content:' ';
+    width: 0px;
+    height: 100%;
+    text-align: right;
+    background-color:  white;
+    position: absolute;
+    left: 0px;
+    transition: 0.5s;
+}
+.main_container .category .khoianh:hover .chuto a::before{
+    width: 100%;
+    opacity: 0;
+}
+
+.content_bottom{
+    display: flex;
+    margin: auto;
+    justify-content:space-between ;
+    width: 50%;
+    padding: 50px;
+    border-bottom: 1px solid rgb(220, 228, 220);
+}
+.content_bottom .img_bottom{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.content_bottom .img_bottom::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: rgb(220, 228, 220);
+    opacity: 1;
+}
+.content_bottom .img_bottom::before:hover{
+    opacity: 0;
+}
+.content_bottom .img_bottom img{
+    width: 100%;
+    height: 100%;
+}

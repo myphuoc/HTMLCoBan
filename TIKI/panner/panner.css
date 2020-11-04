@@ -1,0 +1,62 @@
+body{
+    font-family: segoe UI light;
+    font-weight: bolder;
+}
+.panner{
+ display: flex;
+ width: 1115px;
+ margin: auto;   
+}
+.panner .cot1{
+    width: 220px;
+    margin-right: 15px
+}
+.panner .cot1 ._1hang{
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.panner .cot1 ._1hang .hangtrai{
+    width: 35px;
+}
+.panner .cot1 ._1hang .hangphai{
+    width: cal( 100% - 35px);
+}
+.panner .cot2{
+    width: 525px;
+    height: 490px;
+}
+.panner .cot2 .tren{
+    height: 330px;
+}
+.panner .cot2 .tren img{
+    width: 100%;
+}
+.panner .cot2 .tren .carousel-indicators{
+    display: none;
+}
+.panner .cot2 .duoi{
+    height: 160px;
+    display: flex;
+}
+.panner .cot2 .duoi .motnua{
+    width: 50%;
+}
+.panner .cot2 .duoi .motnua img{
+    width: 100%;
+    border-radius: 4px;
+}
+.panner .cot3{
+    width: 372px ;
+    height: 490px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.panner .cot3 .saudiv{
+    width: 50%;
+}
+.panner .cot3 .saudiv img{
+    height: 160px;
+    width: 100%;
+}

@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    top: 0px;
+    width: 100%;
+    font-family: Arial,sans-serif;
+}
+
+.header{ 
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    width: 1252px;
+    box-sizing: border-box;
+    margin-left: 100px;
+    
+}
+.header .logo{
+    width: 8%;
+    padding: 20px;
+}
+.header .logo img{
+    width: 100%;
+}
+.header .thongke{
+    width: 55%;
+    margin: auto
+}
+.header .thongke iframe{
+    width: 100%;
+    height: 30px;
+}
+.header .timkiem {
+    width: 30%;
+    display: flex;
+    height: 30px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.header .timkiem input{
+    width: 150px;
+    margin-left: 20px;
+    background-color: rgb(238, 234, 234);
+}
+
+.header .timkiem button {
+    width: 50px;
+    background-color: rgb(238, 234, 234);
+}
+
+
+div.menutren{
+    background-color: rgb(2, 100, 2);
+    height: 40px;
+    text-align: center;
+}
+ul.menungang{
+    display: flex;
+    list-style: none;
+    width: 1252px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul.menungang .a1{
+    color: #fff;
+    text-decoration: none;
+    font-family: segoe Ui light;
+    font-size: 13px;
+    padding: 0.2% 10px;
+    display: block;
+    transition: 0.2s;
+    justify-content: space-between;
+    font-weight: 500;
+    font-weight: bolder;
+}
+ul.menungang a.a1:hover{
+    background-color: rgb(12, 146, 12);
+    padding-top: 3px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+ul.menungang li._1item{
+    position: relative;
+}
+ul.menungang li._1item  .list{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 220px;
+    border: 1px solid rgb(248, 244, 244);
+    background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+ul.menungang li._1item:hover .list {
+    visibility: visible;
+    opacity: 1;
+}
+ul.menungang li._1item  .list ul{
+    list-style-type: disc;
+    color:  rgb(12, 146, 12) ;
+}
+ul.menungang li._1item  .list ul li .a2{
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 10px;
+    border-bottom: 1px solid rgb(241, 239, 239);
+    display: block;
+    transition: 0.5s;
+}
+ul.menungang li._1item  .list ul li:hover .a2{
+    color: blue;
+}
+
+.toppanner{
+    background-color: rgb(247, 248, 248);
+    width: 100%;
+    height: 120px;
+    margin: auto; 
+}
+
+.toppanner iframe{
+    padding: 10px;
+    margin-left: 200px;
+}
+div.top{
+    width: 80%;
+}
+div.top .tren{
+    display: flex;
+    width: 80%;
+    border-left: 1px solid #eee;
+    margin-top: 10px;
+    height: auto;
+}
+div.top .tren .cottrai{
+    font-family: regoe UI ;
+    font-size: 13px;  
+    width: 40%;
+    margin-left: 100px;
+}
+ 
+div.top .tren .cottrai .nd {
+    margin: 10px;
+} 
+
+div.top .tren .cottrai p{
+    font-size: 15px;
+} 
+
+div.top .tren .cottrai a{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+div.top .tren .cottrai a:hover{
+    color: blue;
+}
+div.top .tren .cottrai ul{
+    color: chartreuse;
+    font-size: 16;
+    margin-left: -30px;
+    display: inline-block;
+}
+div.top .tren .cotphai{
+    font-family: regoe UI ;
+    font-size: 13px;  
+    width: 30%;
+    margin-left: 50px;
+    border-left: 1px solid #eee;
+}
+div.top .tren .cotphai .ds{
+    width: 80%;
+    padding-left: 20px;
+}
+div.top .tren .cotphai hr {
+    height: 1px;
+    background-color: #06c;
+    margin-bottom: 10px;
+}
+div.top .tren .cotphai h2{
+    color: #06c;
+}
+div.top .tren .cotphai ul{
+    color: #06c;
+    margin-left: -28px;
+    font-size: 15px;
+}
+div.top .tren .cotphai ul li{
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+div.top .tren .cotphai ul li a{
+    text-decoration: none;
+    color: #161616;
+    font-weight: bolder;
+}
+div.top .tren .cotphai ul li a:hover{
+
+    color: #06c;
+
+}
+
+div.top  .duoi{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+div.top .duoi .motcot{
+    width: 30%;
+}
+div.top  .duoi .motcot img{
+    width: 100%;
+    height: auto;
+}
+div.top .duoi .motcot a{
+ text-decoration: none;
+ color: #161616;
+ font-weight: bold;
+ font-size: 13px;
+}
+div.top .duoi .motcot a:hover{
+    color: #06c;
+   }
+
+div.ngang{
+    width: 80%;
+    height: 3px;
+    background-color: #eee;
+    margin-left: 100px;
+    margin-top: 10px;
+}

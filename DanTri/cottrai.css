@@ -1,0 +1,37 @@
+div.tren{
+    width: 40%;
+    margin: auto;
+    font-size: 13px;
+    font-family: regoe UI ;
+    border-left: 1px solid #eee;
+}
+div.tren .cotphai{
+    width: 80%;
+    margin: 30px;
+}
+div.tren .cotphai hr {
+    height: 1px;
+    background-color: #06c;
+}
+div.tren .cotphai h2{
+    color: #06c;
+}
+div.tren .cotphai ul{
+    color: #06c;
+    margin-left: -28px;
+    font-size: 15px;
+}
+div.tren .cotphai ul li{
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+div.tren .cotphai ul li a{
+    text-decoration: none;
+    color: #161616;
+    font-weight: bolder;
+}
+div.tren .cotphai ul li a:hover{
+
+    color: #06c;
+
+}
